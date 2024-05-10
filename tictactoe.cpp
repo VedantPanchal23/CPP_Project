@@ -125,14 +125,14 @@ int main()
     vector<vector<char>> board(3, vector<char>(3, ' '));
     int row, col;
 
-    cout << "Tic Tac Toe - Computer Wins!" << endl;
+    cout << "Tic Tac Toe " << endl;
     cout << "Player: X, Computer: O" << endl;
 
     // Main game loop
     while (true)
     {
         // Player's move
-        cout << "Enter your move (row column): ";
+        cout << "Enter your move (row,column) coordinates: ";
         cin >> row >> col;
         row--; // Adjust for 0-based indexing
         col--;
